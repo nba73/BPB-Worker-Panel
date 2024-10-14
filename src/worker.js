@@ -5015,7 +5015,7 @@ const xrayConfigTemp = {
     ],
     inbounds: [
         {
-            port: 10808,
+            port: 7890,
             protocol: "socks",
             settings: {
                 auth: "noauth",
@@ -5030,7 +5030,7 @@ const xrayConfigTemp = {
             tag: "socks-in",
         },
         {
-            port: 10809,
+            port: 7891,
             protocol: "http",
             settings: {
                 auth: "noauth",
